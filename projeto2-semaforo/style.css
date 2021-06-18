@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 80px;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px black;
+    margin-right: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.buttonRed {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.buttonRed:hover {
+    background-color: red;
+    color: white;
+}
+
+.buttonYellow {
+    background-color: white;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.buttonYellow:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.buttonGreen {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+.buttonGreen:hover {
+    background-color: green;
+    color: white;
+}
+
+.button:hover {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(240,250,0,1) 50%, rgba(22,251,0,1) 100%);
+    color: white;
+}
